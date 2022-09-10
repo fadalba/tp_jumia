@@ -1,0 +1,183 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+body{
+    background-color:rgb(237, 230, 230);
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    
+}
+#ligne1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  li a{
+     margin-left: 50px;
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+    
+  }
+
+  #menu{
+    background-color: white;
+    margin-top: 1%;
+    padding: 1%;
+    display: flex;
+  }
+  
+  nav{
+    margin-left: 5%;
+  }
+  input{
+    height: 30px;
+    width: 300px;
+  }
+  #btn{
+    height: 35px;
+    background-color:darkorange;
+    border:1px solid darkorange;
+    border-radius:5% ;
+  }
+ 
+  
+  #navigation{
+    display: flex;
+    margin: 15px;
+    
+  }
+  
+  .menu2{
+    margin: 10px;
+    width: 50%;
+    background-color: white; 
+  }
+ 
+  .menu3{
+    margin: 10px;
+    width: 30%;
+  }
+
+  .top{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px;
+    border-radius: 10px;
+  }
+  .top p:hover{
+    color: orange;
+  }
+  .bottom img{
+    border: 1px;
+    border-radius: 10px;
+   
+  }
+ 
+  #menu1 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+
+  #menu1 li a{
+    margin-left: 20px;
+    
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+    padding-top: 10px ;
+  
+  }
+
+ #menu1 li a:hover{
+color: orange;
+ }
+ ul :hover{
+  color: orange;
+ }
+  .fa-star{
+    color: orange;
+   
+    
+  }
+  .fa{
+   
+    margin: 5px;
+  }
+  #menu1{
+    width: 25%;
+    background-color: white;
+    margin: 10px;
+      
+  }
+ 
+     .defil{
+    /* position: relative; */
+    width: 100%;
+    display: flex;
+    writing-mode: horizontal-tb;
+    
+   
+  }
+   .defil img{
+     width: 180px;
+     margin: 15px; 
+    
+  }
+/* pour aligner la barre de scrolle en bas*/
+  #defil2{
+    display: flex;
+    overflow-x: scroll;
+  }
+ /* pour enlever la barre de scrolle en bas*/
+  #defil2::-webkit-scrollbar{  
+ display: none;
+  }
+ 
+
+                            /* On va gérer la responsivité de la page à partir d'ici */
+@media screen  and (min-max : 790px){
+  
+
+}
+@media screen and (max-width: 425px) {
+  #menu nav {
+    display: none;
+  }
+  .logo img {
+    width: 75px;
+  }
+  .menu_text {
+    display: none;
+  }
+  #menu1{
+    display:none;
+  }
+  .menu2 {
+    width: 100px;
+    height: 150px;
+  }
+  .menu3{
+    flex-direction: row;
+  }
+}
+
+
+  
